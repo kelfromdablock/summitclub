@@ -1,0 +1,213 @@
+body {
+    background-color: black;
+}
+
+html {
+    font-size: 16px;
+}
+
+/*NavBar*/
+
+header {
+    display: block;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    z-index: 3;
+}
+
+.logo {
+    float:left;
+    height: 90%;
+    width: 25%;
+}
+
+.nav li {
+    float: right;
+    display: inline-block;
+    padding: 1.5625rem; 
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav a {
+    color: rgb(88, 88, 88); 
+    text-decoration: underline;
+}
+
+.nav a:hover {
+    color: lightgray;
+}
+
+/*Banner*/
+ 
+
+#banner {
+    position: relative;
+    top: 6.3125rem;
+    display: block;
+    height: 43.75rem;
+    max-width:98%;  
+    margin: 0 6.3125rem;
+    opacity: .9;
+    background-repeat: no-repeat;
+    background-size: 90.625rem; 
+    background-position: bottom;
+    background-image: url(https://images.unsplash.com/photo-1469026140142-cb239ea68152?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+
+#banner h1 {
+    font-size: 2.8125;
+    text-align: center;
+    font-family: "Open Sans";
+    letter-spacing: 1.25rem;
+    text-decoration: underline;
+    padding-top: 0.9375rem;
+    margin-bottom: 0px;
+    color: rgb(75, 75, 75);
+}
+
+
+#banner p {
+    text-align: center;
+    color: rgb(75, 75, 75);
+    font-family: "Roboto";
+    margin-top 0px;
+}
+
+/*Hikes*/
+
+#hikes {
+    position: relative;
+    top: 8.125rem; 
+    color: seashell;
+    opacity: .8;
+    text-align: center;
+    display: block;
+    font-family: "Open Sans";
+    width: 100%;
+    height: 100%;
+    min-height:fit-content;
+    border: 0.03125rem solid white;
+    margin: 0px auto;
+}
+
+#hikes h1, #hikes h2 {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.container-hikes {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+}
+
+.hikeitems img {
+    width: 18.75rem;
+    height: 10.9375rem;
+}
+
+.hikeitems {
+    padding: 1.5625rem;
+    width: 21rem;
+    height: 30rem;
+}
+
+button {
+    height: 2.1875rem;
+    background-color: seashell;
+    color: rgb(75, 75, 75);
+    text-decoration: underline; 
+    border-radius: 0.3125rem;   
+    font-weight: bold;
+}
+
+button a:hover {
+    color: lightgray;
+}
+
+button a:visited {
+    color: black;
+}
+
+@media only screen and (max-width: 1100px) {
+    #hikes {
+        border: none;
+        height: 100%;
+    }
+}
+
+/*Clubs*/
+
+#clubs {
+    display: block;
+    color: seashell;
+    font-family: "Open Sans";
+    position: relative;
+    top: 133px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#clubs h1 {
+    text-decoration: underline;
+}
+
+.location-text {
+    background-color: black;
+    opacity: .6;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 500px;
+    text-decoration: underline;
+    margin: 0 auto;
+
+}
+
+#denver {
+    background-image: url('https://images.unsplash.com/photo-1620248742445-ce3a0de4b2b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 250px;
+    padding-top: 130px;
+}
+
+#sanfran {
+    background-image: url('https://images.unsplash.com/photo-1521464302861-ce943915d1c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 250px;
+    padding-top: 130px;
+}
+
+#kauai {
+    background-image: url('https://images.unsplash.com/photo-1545251142-f32339076e6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 250px;
+    padding-top: 130px;
+}
+
+.clubitems {
+    margin: 50px 0;
+}
+
+/*Footer*/
+
+.footer {
+    color: seashell;
+    position: relative;
+    top: 75px;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 25px 0px;
+}
+
+
